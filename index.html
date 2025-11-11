@@ -6,31 +6,34 @@
     <meta name="description" content="Homepage of Shridhara Pavel, a full-stack developer and ML engineer specializing in React, Flutter, and Python.">
     <meta name="author" content="Shridhara Pavel">
     <title>SHRIDHARA PAVEL - Full-Stack Developer & ML Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-        <h1>SHRIDHARA PAVEL</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li>
-                    <a href="#products">Product Pages</a>
-                    <ul>
-                        <li><a href="product-1.html">Web Development</a></li>
-                        <li><a href="product-2.html">Flutter Mobile</a></li>
-                        <li><a href="product-3.html">ML/AI Services</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="nav-container">
+            <h1>SHRIDHARA PAVEL</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#">Product Pages</a>
+                        <ul class="dropdown-content">
+                            <li><a href="product-1.html">Web Development</a></li>
+                            <li><a href="product-2.html">Flutter Mobile</a></li>
+                            <li><a href="product-3.html">ML/AI Services</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
+        <section class="hero">
             <h2>Full-Stack Developer and ML Engineer for Hire</h2>
             <p>React, Flutter, Go, Python, Machine Learning</p>
             <a href="shop.html"><button>View Services</button></a>
@@ -38,70 +41,75 @@
 
         <section>
             <h3>Featured Services</h3>
-            
-            <article>
-                <h4>Full-Stack Web Development</h4>
-                <p>React, Node.js, MongoDB</p>
-                <p>Starting at $1,500</p>
-                <a href="product-1.html">Learn More</a>
-            </article>
-            
-            <article>
-                <h4>Flutter Mobile Apps</h4>
-                <p>iOS, Android, Web</p>
-                <p>Starting at $2,500</p>
-                <a href="product-2.html">Learn More</a>
-            </article>
-            
-            <article>
-                <h4>ML and AI Integration</h4>
-                <p>OCR, NLP, Predictions</p>
-                <p>Starting at $3,000</p>
-                <a href="product-3.html">Learn More</a>
-            </article>
+            <div class="card-container">
+                <article class="card">
+                    <h4>Full-Stack Web Development</h4>
+                    <p>React, Node.js, MongoDB</p>
+                    <p>Starting at $1,500</p>
+                    <a href="product-1.html">Learn More</a>
+                </article>
+                
+                <article class="card">
+                    <h4>Flutter Mobile Apps</h4>
+                    <p>iOS, Android, Web</p>
+                    <p>Starting at $2,500</p>
+                    <a href="product-2.html">Learn More</a>
+                </article>
+                
+                <article class="card">
+                    <h4>ML and AI Integration</h4>
+                    <p>OCR, NLP, Predictions</p>
+                    <p>Starting at $3,000</p>
+                    <a href="product-3.html">Learn More</a>
+                </article>
+            </div>
         </section>
 
         <section>
             <h3>Recent Projects</h3>
-            <article>
-                <h4>Astro Scope - NASA Winner</h4>
-                <p>Real-time collaborative platform, Three.js, Socket.IO</p>
-            </article>
-            <article>
-                <h4>RawTorch Deep Learning Library</h4>
-                <p>Custom tensor operations, CUDA acceleration, NumPy</p>
-            </article>
+            <div class="card-container">
+                <article class="card">
+                    <h4>Astro Scope - NASA Winner</h4>
+                    <p>Real-time collaborative platform, Three.js, Socket.IO</p>
+                </article>
+                <article class="card">
+                    <h4>RawTorch Deep Learning Library</h4>
+                    <p>Custom tensor operations, CUDA acceleration, NumPy</p>
+                </article>
+            </div>
         </section>
 
     </main>
 
     <footer>
-        <div>
-            <h4>Shridhara Pavel</h4>
-            <p>Full-Stack Developer and ML Engineer</p>
-            <p>rshridharapavel@gmail.com</p>
-            <p>+1-418-218-0643</p>
-            <p>Orillia, Ontario</p>
+        <div class="footer-content">
+            <div>
+                <h4>Shridhara Pavel</h4>
+                <p>Full-Stack Developer and ML Engineer</p>
+                <p>rshridharapavel@gmail.com</p>
+                <p>+1-418-218-0643</p>
+                <p>Orillia, Ontario</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="https://github.com/pavelaugustt" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.youtube.com/@pavelaugust" target="_blank">YouTube</a></li>
+                    <li><a href="https://linkedin.com/in/shridharapavel" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://shridharapavel.lol" target="_blank">Portfolio</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <h4>Quick Links</h4>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <h4>Connect</h4>
-            <ul>
-                <li><a href="https://github.com/pavelaugustt" target="_blank">GitHub</a></li>
-                <li><a href="https://www.youtube.com/@pavelaugust" target="_blank">YouTube</a></li>
-                <li><a href="https://linkedin.com/in/shridharapavel" target="_blank">LinkedIn</a></li>
-                <li><a href="https://shridharapavel.lol" target="_blank">Portfolio</a></li>
-            </ul>
-        </div>
-        <p>&copy; 2025 Shridhara Pavel. Student project for educational purposes.</p>
+        <p class="copyright">&copy; 2025 Shridhara Pavel. Student project for educational purposes.</p>
     </footer>
 
 </body>

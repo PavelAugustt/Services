@@ -1,0 +1,138 @@
+/* General Body Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-container h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1.5rem 0;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 200px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li a {
+    padding: 0.75rem 1rem;
+}
+
+/* Main Content */
+main {
+    padding: 1rem 2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+main section h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Card Layout */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    flex: 1 1 300px; 
+    max-width: 350px;
+}
+
+/* Buttons */
+button {
+    padding: 0.8rem 1.5rem;
+    border: 1px solid #000;
+    background: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    padding: 2rem 1rem;
+    border-top: 1px solid #ccc;
+    margin-top: 2rem;
+    text-align: center; 
+}
+
+footer .footer-content { 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer div {
+    flex: 1;
+    min-width: 200px;
+    padding: 0 1rem;
+}
+
+footer h4 {
+    margin-top: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
