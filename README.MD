@@ -1,6 +1,6 @@
 # Personal Freelance & Portfolio Website
 
-This repository contains the source code for my personal freelance and portfolio website. 
+This repository contains the source code for my personal freelance and portfolio website. This uses basic html and css. 
 
 ## Project Rationale
 
@@ -29,3 +29,5 @@ The 'Stack Sans Notch' font from Google Fonts was chosen. It is used in two weig
 
 -   **Body Text (`p`, `li`, etc.)**: Light weight (`font-weight: 200`) for paragraphs.
 -   **Headings (`h1`, `h2`, etc.)**: Bold weight (`font-weight: 700`) for titles.
+
+Phase 1 - Completed
