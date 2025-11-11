@@ -1,0 +1,128 @@
+<svg viewBox="0 0 1200 2200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Desktop Wireframe -->
+  <rect width="1200" height="2200" fill="#ffffff" stroke="#000" stroke-width="1"/>
+  
+  <!-- Header with full navigation -->
+  <rect x="0" y="0" width="1200" height="80" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="60" y="50" font-size="20" font-weight="bold" fill="#000">SHRIDHARA PAVEL</text>
+  
+  <!-- Navigation links -->
+  <rect x="700" y="30" width="70" height="25" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="722" y="47" font-size="12" fill="#000">Home</text>
+  
+  <rect x="780" y="30" width="80" height="25" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="797" y="47" font-size="12" fill="#000">Services</text>
+  
+  <rect x="870" y="30" width="70" height="25" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="892" y="47" font-size="12" fill="#000">About</text>
+  
+  <rect x="950" y="30" width="80" height="25" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="970" y="47" font-size="12" fill="#000">Contact</text>
+  
+  <rect x="1040" y="30" width="120" height="25" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="1057" y="47" font-size="12" fill="#000">Product Pages</text>
+  
+  <!-- Hero Section -->
+  <rect x="0" y="80" width="1200" height="450" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="600" y="250" font-size="36" font-weight="bold" fill="#000" text-anchor="middle">Full-Stack Developer and</text>
+  <text x="600" y="300" font-size="36" font-weight="bold" fill="#000" text-anchor="middle">ML Engineer for Hire</text>
+  <text x="600" y="350" font-size="16" fill="#000" text-anchor="middle">React, Flutter, Go, Python, Machine Learning</text>
+  
+  <!-- CTA Button -->
+  <rect x="500" y="390" width="200" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="600" y="420" font-size="16" fill="#000" text-anchor="middle">View Services</text>
+  
+  <text x="20" y="100" font-size="11" fill="#666">Header with logo and navigation</text>
+  <text x="20" y="500" font-size="11" fill="#666">Hero section with CTA button</text>
+  
+  <!-- Featured Services Section -->
+  <rect x="0" y="530" width="1200" height="50" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="60" y="565" font-size="24" font-weight="bold" fill="#000">Featured Services</text>
+  
+  <!-- Service Card 1 -->
+  <rect x="60" y="600" width="350" height="380" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="80" y="620" width="310" height="180" fill="#f0f0f0" stroke="#000" stroke-width="1"/>
+  <text x="235" y="720" font-size="14" fill="#666" text-anchor="middle">Service Image</text>
+  <text x="235" y="830" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">Full-Stack Web Development</text>
+  <text x="235" y="860" font-size="13" fill="#000" text-anchor="middle">React, Node.js, MongoDB</text>
+  <text x="235" y="900" font-size="16" fill="#000" text-anchor="middle">Starting at $1,500</text>
+  <rect x="145" y="930" width="180" height="35" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="235" y="952" font-size="13" fill="#000" text-anchor="middle">Learn More</text>
+  
+  <!-- Service Card 2 -->
+  <rect x="425" y="600" width="350" height="380" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="445" y="620" width="310" height="180" fill="#f0f0f0" stroke="#000" stroke-width="1"/>
+  <text x="600" y="720" font-size="14" fill="#666" text-anchor="middle">Service Image</text>
+  <text x="600" y="830" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">Flutter Mobile Apps</text>
+  <text x="600" y="860" font-size="13" fill="#000" text-anchor="middle">iOS, Android, Web</text>
+  <text x="600" y="900" font-size="16" fill="#000" text-anchor="middle">Starting at $2,500</text>
+  <rect x="510" y="930" width="180" height="35" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="600" y="952" font-size="13" fill="#000" text-anchor="middle">Learn More</text>
+  
+  <!-- Service Card 3 -->
+  <rect x="790" y="600" width="350" height="380" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="810" y="620" width="310" height="180" fill="#f0f0f0" stroke="#000" stroke-width="1"/>
+  <text x="965" y="720" font-size="14" fill="#666" text-anchor="middle">Service Image</text>
+  <text x="965" y="830" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">ML and AI Integration</text>
+  <text x="965" y="860" font-size="13" fill="#000" text-anchor="middle">OCR, NLP, Predictions</text>
+  <text x="965" y="900" font-size="16" fill="#000" text-anchor="middle">Starting at $3,000</text>
+  <rect x="875" y="930" width="180" height="35" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="965" y="952" font-size="13" fill="#000" text-anchor="middle">Learn More</text>
+  
+  <text x="20" y="620" font-size="11" fill="#666">Service cards linking to product pages</text>
+  
+  <!-- Recent Projects Section -->
+  <rect x="0" y="1000" width="1200" height="50" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="60" y="1035" font-size="24" font-weight="bold" fill="#000">Recent Projects</text>
+  
+  <rect x="60" y="1070" width="550" height="300" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="80" y="1090" width="510" height="200" fill="#f0f0f0" stroke="#000" stroke-width="1"/>
+  <text x="335" y="1200" font-size="14" fill="#666" text-anchor="middle">Astro Scope Screenshot</text>
+  <text x="335" y="1320" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">Astro Scope - NASA Winner</text>
+  <text x="335" y="1350" font-size="13" fill="#000" text-anchor="middle">Real-time collaborative platform, Three.js, Socket.IO</text>
+  
+  <rect x="630" y="1070" width="550" height="300" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="650" y="1090" width="510" height="200" fill="#f0f0f0" stroke="#000" stroke-width="1"/>
+  <text x="905" y="1200" font-size="14" fill="#666" text-anchor="middle">RawTorch Screenshot</text>
+  <text x="905" y="1320" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">RawTorch Deep Learning Library</text>
+  <text x="905" y="1350" font-size="13" fill="#000" text-anchor="middle">Custom tensor operations, CUDA acceleration, NumPy</text>
+  
+  <text x="20" y="1090" font-size="11" fill="#666">Portfolio showcase section</text>
+  
+  <!-- Secondary CTA Section -->
+  <rect x="0" y="1400" width="1200" height="250" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="600" y="1500" font-size="28" font-weight="bold" fill="#000" text-anchor="middle">Ready to Start Your Project?</text>
+  <text x="600" y="1540" font-size="16" fill="#000" text-anchor="middle">Let's build something amazing together</text>
+  <rect x="500" y="1570" width="200" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="600" y="1600" font-size="16" fill="#000" text-anchor="middle">Get in Touch</text>
+  
+  <text x="20" y="1420" font-size="11" fill="#666">Secondary call to action</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1650" width="1200" height="250" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <rect x="80" y="1690" width="300" height="150" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="100" y="1715" font-size="14" font-weight="bold" fill="#000">Shridhara Pavel</text>
+  <text x="100" y="1740" font-size="11" fill="#000">Full-Stack Developer and ML Engineer</text>
+  <text x="100" y="1760" font-size="11" fill="#000">shridharapavel@gmail.com</text>
+  <text x="100" y="1780" font-size="11" fill="#000">+1-418-218-0643</text>
+  <text x="100" y="1800" font-size="11" fill="#000">Orillia, Ontario</text>
+  
+  <rect x="450" y="1690" width="300" height="150" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="470" y="1715" font-size="14" font-weight="bold" fill="#000">Quick Links</text>
+  <text x="470" y="1740" font-size="11" fill="#000">Home</text>
+  <text x="470" y="1760" font-size="11" fill="#000">Services</text>
+  <text x="470" y="1780" font-size="11" fill="#000">About</text>
+  <text x="470" y="1800" font-size="11" fill="#000">Contact</text>
+  <text x="470" y="1820" font-size="11" fill="#000">Product Pages</text>
+  
+  <rect x="820" y="1690" width="300" height="150" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="840" y="1715" font-size="14" font-weight="bold" fill="#000">Connect</text>
+  <text x="840" y="1740" font-size="11" fill="#000">GitHub: github.com/bozo10n</text>
+  <text x="840" y="1760" font-size="11" fill="#000">LinkedIn: linkedin.com/in/shridharapavel</text>
+  <text x="840" y="1780" font-size="11" fill="#000">Portfolio: shridharapavel.lol</text>
+  
+  <text x="20" y="1670" font-size="11" fill="#666">Footer with contact info and links</text>
+  
+  <text x="600" y="1875" font-size="10" fill="#666" text-anchor="middle">2025 Shridhara Pavel. Student project for educational purposes.</text>
+</svg>
