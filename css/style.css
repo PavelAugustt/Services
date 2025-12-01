@@ -1,6 +1,6 @@
 /* General Body Styles */
 body {
-    font-family: "Stack Sans Notch", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 200; 
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: "Stack Sans Notch", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 700;
 }
 
@@ -20,14 +20,19 @@ h1, h2, h3, h4 {
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
-    border-bottom: 1px solid #ff758f;
-    background-color: #fff0f3;
+    border-bottom: 1px solid rgba(255, 117, 143, 0.3);
+    background-color: rgba(255, 240, 243, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.nav-container h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #a4133c;
+.nav-container .logo {
+    height: 40px;
+    width: auto;
+    display: block;
 }
 
 nav ul {
@@ -109,6 +114,7 @@ main section h3 {
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .card {
@@ -116,7 +122,19 @@ main section h3 {
     padding: 1.5rem;
     flex: 1 1 300px; 
     max-width: 350px;
-    background-color: #fff;
+    background: linear-gradient(145deg, #fff0f3, #ffdde1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-style: preserve-3d;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(193, 24, 74, 0.1), 
+                -5px -5px 15px rgba(255, 255, 255, 0.8),
+                inset 5px 5px 10px rgba(193, 24, 74, 0.05),
+                inset -5px -5px 10px rgba(255, 255, 255, 0.9);
+}
+
+.card:hover {
+    transform: translateY(-10px) rotateX(5deg) rotateY(5deg) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .card h4 {
@@ -128,6 +146,46 @@ main section h3 {
     text-decoration: none;
 }
 
+.project-card {
+    position: relative;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    overflow-y: auto;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.project-card:hover::before {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.project-card h4, .project-card p {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.project-astroscope {
+    background-image: url('../assets/AstroScope.jpg');
+}
+
+.project-rawtorch {
+    background-image: url('../assets/RawTorch.jpg');
+}
+
 /* Buttons */
 button {
     padding: 0.8rem 1.5rem;
@@ -136,10 +194,29 @@ button {
     color: #fff;
     cursor: pointer;
     font-size: 1rem;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 button:hover {
     background: #c9184a;
+}
+
+.cta-button {
+    padding: 1.2rem 2.5rem;
+    font-size: 1.3rem;
+    background-color: #ff4d6d;
+    color: #fff;
+    border: 2px solid #ff4d6d;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #c9184a;
+    color: #fff;
+    border-color: #c9184a;
 }
 
 /* Footer */
